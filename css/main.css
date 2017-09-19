@@ -1,0 +1,142 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: #70525e;
+}
+
+#about, #work {
+  height: 700px;
+}
+
+#contact {
+  padding-top: 50px;
+  height: 200px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto; /*The margin setting with two values sets a vertical and then a horizontal value. In this case, the margins are 0px at the top and bottom, and set automatically on either side. */
+}
+
+.half-width { /** Note: neither of these classes require margins values **/
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height:700px;
+  color: #ffffff;
+  background: url('../img/header-final.jpg') no-repeat #000000;
+  padding: 75px 40px;
+}
+
+header p {
+  color: #ffffff;
+  font-family: 'Rouge Script', cursive;
+  font-size:100px;
+}
+
+header h2 {
+  padding: 200px 0px;
+}
+
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 40px;
+  color: #ffffff;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 200px 0;
+}
+
+#about h2 {
+  font-family: 'Rouge Script', serif;
+  font-size: 40px;
+  padding: 0px 0px 0px 100px;
+}
+
+#about img {
+  width:250px;
+  height:250px;
+  padding: 10px 0px 0px 100px;
+}
+
+#about p {
+  font-size:20px;
+  padding: 0px 0px 0px 100px;
+}
+
+
+/***** WORK *****/
+
+#work {
+  background: #be3a3f;
+}
+
+#work .full-width {
+  padding: 200px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+#work h3 {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  width:300px;
+}
+
+#work p {
+  color: #ffffff;
+  padding: 0 35px;
+}
+
+/***** CONTACT *****/
+
+#contact img {
+  padding-left:50px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear:both;
+}
+
+footer p {
+  float:left;
+  font-size:13px;
+  width:600px;
+  text-align:center;
+}
